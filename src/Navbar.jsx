@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Left Section */}
         <div className="flex items-center mb-4 md:mb-0">
           <div>
-            <NavLink to={"/"} className="font-semibold">Car Zone</NavLink>
+            <NavLink to={"/landingpage"} className="font-semibold">Car Zone</NavLink>
           </div>
           <div className="ml-2 md:ml-4">
             <img src={sport} alt="" className="w-8 h-8" />

@@ -8,6 +8,7 @@ import CarHiring from './carHiring'
 import Staff from './staff'
 import Review from './Review'
 import Footer from './Footer'
+import LandingPage from './LandingPage';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/landingpage' element={<LandingPage/>}/>
           <Route path='/chooseus' element={<ChooseUs/>}/>
           <Route path='/booking' element={<Booking/>}/>
           <Route path='/carhiring' element={<CarHiring/>}/>
